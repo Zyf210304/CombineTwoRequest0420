@@ -11,6 +11,8 @@
 		022FAA81280FD8ED0072CD7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FAA80280FD8ED0072CD7B /* ContentView.swift */; };
 		022FAA83280FD8EE0072CD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022FAA82280FD8EE0072CD7B /* Assets.xcassets */; };
 		022FAA86280FD8EE0072CD7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022FAA85280FD8EE0072CD7B /* Preview Assets.xcassets */; };
+		022FAA8D280FDA6E0072CD7B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FAA8C280FDA6E0072CD7B /* Model.swift */; };
+		022FAA8F280FDAFF0072CD7B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FAA8E280FDAFF0072CD7B /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		022FAA80280FD8ED0072CD7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		022FAA82280FD8EE0072CD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022FAA85280FD8EE0072CD7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		022FAA8C280FDA6E0072CD7B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		022FAA8E280FDAFF0072CD7B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				022FAA80280FD8ED0072CD7B /* ContentView.swift */,
 				022FAA82280FD8EE0072CD7B /* Assets.xcassets */,
 				022FAA84280FD8EE0072CD7B /* Preview Content */,
+				022FAA8C280FDA6E0072CD7B /* Model.swift */,
+				022FAA8E280FDAFF0072CD7B /* NetworkService.swift */,
 			);
 			path = CombineTwoRequest0420;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022FAA8D280FDA6E0072CD7B /* Model.swift in Sources */,
 				022FAA81280FD8ED0072CD7B /* ContentView.swift in Sources */,
+				022FAA8F280FDAFF0072CD7B /* NetworkService.swift in Sources */,
 				022FAA7F280FD8ED0072CD7B /* CombineTwoRequest0420App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
